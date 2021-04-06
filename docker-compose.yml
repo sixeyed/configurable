@@ -1,0 +1,8 @@
+services:
+
+    configurable:
+      ports: 
+        - 8080:80
+      image: sixeyed/configurable:21.04
+      build:
+        context: .
